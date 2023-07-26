@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  margin: 0 auto;
+  padding: 50px 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  width: 100px;
+  opacity: 0.8;
+}
+
+a {
+  color: #fff;
+  font-family: "Space Mono", monospace;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+p {
+  font-family: "Space Mono", monospace;
+}
+.top {
+  background-image: url("images/top_image.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+#about-us .first-letter {
+  float: left;
+  padding-right: 1.4rem;
+  font-family: "Abril Fatface", serif;
+  font-size: 7.44rem;
+  color: #10b0d8;
+}
+
+.journal {
+  padding: 0 25% 4rem 25%;
+}
+
+.photo.first {
+  position: relative;
+  top: -2.77rem;
+  margin-bottom: 1.67rem;
+}
+
+.photo {
+  width: 75%;
+  padding: 1.11rem;
+  border-radius: 5px;
+  margin: 0 auto 4.44rem auto;
+  background-color: white;
+}
+
+.photo .img-container {
+  overflow: hidden;
+  margin-bottom: 1.11rem;
+}
+
+.photo .img-container img {
+  width: 100%;
+}
+
+thead {
+  background-color: #10b0d8;
+}
+
+table {
+  text-align: center;
+  margin: 20px auto;
+}
+
+#services td {
+  border: 2px solid #8c6b48;
+  width: 300px;
+}
+
+#services {
+  max-width: 940px;
+  margin: 100 auto;
+  height: 800px;
+}
+
+.left {
+  width: 250px;
+}
+
+h1 {
+  font-size: 36px;
+  padding: 15px;
+  color: #141413;
+}
+
+h2 {
+  font-size: 24px;
+  padding: 15px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+  line-height: 2.7;
+}
+
+#founders td img {
+  border-radius: 40px / 80px;
+  width: 300px;
+}
+
+#founders .first-letter {
+  float: inline-start;
+  padding-right: 1.4rem;
+  font-family: "Abril Fatface", serif;
+  font-size: 5rem;
+  color: #4e705f;
+}
